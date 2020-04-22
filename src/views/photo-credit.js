@@ -5,6 +5,7 @@ module.exports = function PhotoCredit (props) {
   let credit = props.credit || ''
 
   return `
+  <!--
 <a
   class="
     position-absolute
@@ -27,6 +28,6 @@ module.exports = function PhotoCredit (props) {
   rel="noopener"
 >
   Photo by <span class="color-2DA6FF">${photographer}</span> on <span class="color-2DA6FF">${service}</span>
-</a>
+</a> -->
   `
 }

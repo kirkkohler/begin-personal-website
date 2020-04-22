@@ -5,6 +5,7 @@ module.exports = function SocialMedia (props) {
   let linkedin = props.linkedin || ''
   let instagram = props.instagram || ''
   let facebook = props.facebook || ''
+  let medium = props.medium || ''
 
   return `
 <div class="display-flex">
@@ -60,6 +61,22 @@ ${facebook
   ? `
   <a
     href="https://facebook.com/${facebook}"
+    target="_blank"
+    rel="noopener"
+  >
+    ${Icon({
+      class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
+      style: 'width:1.25rem;height:1.25rem;',
+      href: 'facebook'
+    })}
+  </a>
+  `
+  : ''
+}
+${medium
+  ? `
+  <a
+    href="https://medium.com/${medium}"
     target="_blank"
     rel="noopener"
   >

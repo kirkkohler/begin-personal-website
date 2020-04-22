@@ -18,9 +18,9 @@ module.exports = function Aside (props) {
   "
 >
   ${PhotoCredit({
-    photographer,
-    service,
-    credit
+    // photographer,
+    // service,
+    // credit
   })}
 </aside>
   `

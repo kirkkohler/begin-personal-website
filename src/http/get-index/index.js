@@ -19,6 +19,7 @@ exports.handler = async function Index () {
      */
     twitter: 'kirkkohler',
     linkedin: 'kirkkohler',
+    medium: 'digital-cake',
 
     /**
      * Layout

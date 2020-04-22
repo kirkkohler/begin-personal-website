@@ -13,6 +13,7 @@ module.exports = function Content (props) {
   let bio = props.bio || ''
   let email = props.email || ''
   let twitter = props.twitter || ''
+  let medium = props.medium || ''
   let linkedin = props.linkedin || ''
   let instagram = props.instagram || ''
   let facebook = props.facebook || ''
@@ -80,6 +81,7 @@ module.exports = function Content (props) {
         ${SocialMedia({
           twitter,
           linkedin,
+          medium,
           instagram,
           facebook
         })}
