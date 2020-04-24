@@ -27,7 +27,7 @@ module.exports = function Home (props) {
   "
 >
  ${Symbols}
- // ${Splash(props)}
+ ${Splash(props)}
  ${Content(props)}
 </body>
 </html>
